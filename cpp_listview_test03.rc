@@ -1,0 +1,34 @@
+#include <winuser.h>
+1 RT_MANIFEST "D:/20251216/cpp_listview_test03.manifest"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "unfamiliaz@gmail.com"
+      VALUE "FileDescription", "ADB File Explorer"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "InternalName", "adbfe1.exe"
+      VALUE "OriginalFilename", "adbfe.exe"
+      VALUE "ProductName", "ADB File Explorer"
+      VALUE "ProductVersion", "1.0.0.0"
+      VALUE "LegalCopyright", "(c) 2026 unfamiliaz@gmail.com...."
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
+
+1 ICON "usb2.ico"
